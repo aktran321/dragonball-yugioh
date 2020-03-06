@@ -1,0 +1,16 @@
+/*flipping images*/
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+img {
+  height: 100px;
+  width: 100px;
+  border: solid 2px;
+  border-color: green;
+}
+.container {
+  float: left;
+  margin: 10px;
+  overflow: auto;
+}
